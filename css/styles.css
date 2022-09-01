@@ -1,0 +1,53 @@
+:root {
+    --primary-text-color:#212121;
+    --title-text-color:#757575;
+    --accent-color:#2196F3;
+    --primary-white-color:#FFFFFF;
+    --primary-black-color:#2F303A;
+}
+
+/* Папка сайта */
+body {
+   background-color:#212121 ; 
+   color: rgba(33, 33, 33, 1);
+}
+.list {
+    list-style: none;
+}
+
+.sait-nav .link.current {
+   color:var(--accent-color);
+}
+
+.sait-nav .link:hover,
+.sait-nav .link:focus {
+    color: var(--title-text-color);
+}
+
+.auth-nav .link.current {
+    color: var(--accent-color);
+}
+
+.auth-nav .link:hover {
+    color: var(--title-text-color);
+}
+
+/* Герой */
+
+.hero-title {
+    color: var(--title-text-color);
+}
+
+.button-primary {
+  color:var(--primary-white-color);
+  background-color: var(--accent-color);  
+}
+
+/* Особливості */
+
+
+/* осн колір текста #212121 */
+/* допоміжний колір текста #757575 */
+/* білий #FFFFFF */
+/* акцент #2196F3 */
+/* цвет черного фона #2F303A; */
