@@ -21,7 +21,7 @@ body {
 
 .sait-nav .link:hover,
 .sait-nav .link:focus {
-    color: var(--title-text-color);
+    color: var(--primary-text-color);
 }
 
 .auth-nav .link.current {
@@ -29,7 +29,7 @@ body {
 }
 
 .auth-nav .link:hover {
-    color: var(--title-text-color);
+    color:var(--primary-text-color);
 }
 
 /* Герой */
