@@ -24,6 +24,10 @@ body {
     color: var(--primary-text-color);
 }
 
+.sait-nav .link.current {
+    color: var(--accent-color);
+}
+
 .auth-nav .link.current {
     color: var(--accent-color);
 }
