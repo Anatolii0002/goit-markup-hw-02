@@ -8,8 +8,8 @@
 
 /* Папка сайта */
 body {
-   background-color:#212121 ; 
-   color: rgba(33, 33, 33, 1);
+   background-color:var(--primary-white-color) ; 
+   color: var(--primary-text-color);
 }
 .list {
     list-style: none;
