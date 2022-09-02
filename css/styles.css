@@ -8,7 +8,7 @@
 
 /* Папка сайта */
 .page {
-   background-color:var(--primary-white-color) ; 
+   background-color:var(--primary-white-color); 
    color: var(--primary-text-color);
 }
 .list {
