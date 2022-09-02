@@ -99,7 +99,14 @@ color: var(--primary-text-color);
 background-color: var(--primary-black-color)
 }
 
-.address {
+.address-city {
+color: var(--primary-white-color);
+}
+
+.address-mail {
     color: var(--title-white-color);
 }
 
+.address-tel {
+    color: var(--title-white-color);
+}
