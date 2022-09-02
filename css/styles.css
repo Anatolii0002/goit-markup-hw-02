@@ -15,7 +15,7 @@ body {
     list-style: none;
 }
 
-.sait-nav .link.current {
+.sait-nav .list {
    color:var(--primary-text-color);
 }
 
