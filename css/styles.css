@@ -11,9 +11,7 @@
    background-color:var(--primary-white-color); 
    color: var(--primary-text-color);
 }
-.list {
-    list-style: none;
-}
+
 
 .logo {
     color: var(--accent-color);
@@ -22,7 +20,7 @@
 .studio {
     color: var(--primary-text-color);
 }
-.sait-nav .link {
+.link {
    color:var(--primary-text-color);
 }
 
