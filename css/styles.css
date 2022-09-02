@@ -15,6 +15,10 @@ body {
     list-style: none;
 }
 
+.logo {
+    color: var(--primary-text-color);
+}
+
 .sait-nav .link {
    color:var(--primary-text-color);
 }
@@ -26,6 +30,10 @@ body {
 
 .sait-nav .link.current {
     color: var(--accent-color);
+}
+
+.auth-nav .link {
+    color: var(--primary-text-color);
 }
 
 .auth-nav .link.current {
@@ -40,7 +48,7 @@ body {
 
 .hero {
     background-color: var(--primary-black-color);
-    
+
 }
 
 .hero-title {
@@ -55,6 +63,13 @@ body {
 
 /* Особливості */
 
+.pec-title {
+    color: var(--primary-text-color);
+}
+
+.pec-text {
+    color: var(--title-text-color);
+}
 
 /* осн колір текста #212121 */
 /* допоміжний колір текста #757575 */
