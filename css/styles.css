@@ -7,7 +7,7 @@
 }
 
 /* Папка сайта */
-body {
+.page {
    background-color:var(--primary-white-color) ; 
    color: var(--primary-text-color);
 }
@@ -70,6 +70,29 @@ body {
 .pec-text {
     color: var(--title-text-color);
 }
+
+/* Чим ми займаємося */
+
+.what-doing {
+    color: var(--primary-text-color);
+}
+
+/* Наша команда */
+
+.out-team {
+color: var(--primary-text-color);    
+}
+
+.our-people {
+    color: var(--primary-text-color);
+}
+
+.people {
+    color: var(--title-text-color);
+}
+
+/* Футер */
+
 
 /* осн колір текста #212121 */
 /* допоміжний колір текста #757575 */
