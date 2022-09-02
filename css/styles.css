@@ -4,6 +4,7 @@
     --accent-color:#2196F3;
     --primary-white-color:#FFFFFF;
     --primary-black-color:#2F303A;
+    --title-white-color:rgba(255, 255, 255, 0.6);
 }
 
 /* Папка сайта */
@@ -94,9 +95,11 @@ color: var(--primary-text-color);
 
 /* Футер */
 
+.footer {
+background-color: var(--primary-black-color)
+}
 
-/* осн колір текста #212121 */
-/* допоміжний колір текста #757575 */
-/* білий #FFFFFF */
-/* акцент #2196F3 */
-/* цвет черного фона #2F303A; */
+.address {
+    color: var(--title-white-color);
+}
+
