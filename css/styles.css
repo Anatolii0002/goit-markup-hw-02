@@ -39,7 +39,8 @@ body {
 /* Герой */
 
 .hero {
-background-color: var(--primary-black-color);
+    background-color: var(--primary-black-color);
+    
 }
 
 .hero-title {
