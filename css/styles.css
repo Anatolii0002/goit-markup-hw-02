@@ -39,7 +39,8 @@ body {
 /* Герой */
 
 .hero-title {
-    color: var(--title-text-color);
+    color: var(--primary-white-color);
+    background-color: var(--primary-text-color);
 }
 
 .button-primary {
