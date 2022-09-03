@@ -183,9 +183,6 @@ color: var(--primary-text-color);
     color: var(--accent-color);
 }
 
-.button current {
-color: var(--accent-color);
-}
 
 .desing-list {
     color: var(--primary-text-color);
