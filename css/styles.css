@@ -166,6 +166,36 @@ color: var(--primary-text-color);
         letter-spacing: 0.03em;
 }
 
+.button-applications {
+    color: var(--primary-white-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+.button-applications:hover,
+.button-applications:focus {
+    color: var(--accent-color);
+}
+
+.desing-list {
+    color: var(--primary-text-color);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2.0;
+        letter-spacing: 0.06em;
+}
+
+.desing-title {
+    color: var(--title-text-color);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+}
+
 /* Футер */
 
 .footer {
@@ -178,6 +208,7 @@ color: var(--primary-white-color);;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 .address-mail {
@@ -186,6 +217,7 @@ color: var(--primary-white-color);;
         font-size: 14px;
         line-height: 1.71;    
         letter-spacing: 0.03em;
+        text-decoration: none;
 }
 
 .address-tel {
@@ -194,6 +226,7 @@ color: var(--primary-white-color);;
         font-size: 14px;
         line-height: 1.71;    
         letter-spacing: 0.03em;
+        text-decoration: none;
 }
 
 .tipo {
@@ -202,4 +235,5 @@ color: var(--primary-white-color);;
         font-size: 26px;
         line-height: 1.2;    
         letter-spacing: 0.03em;
+        text-decoration: none;
 }
