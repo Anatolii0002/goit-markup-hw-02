@@ -13,20 +13,36 @@ body {
    color: var(--primary-text-color);
 
    font-family: roboto, sans-serif;
+   letter-spacing: 0,03em;
 }
 
 
 .logo {
     color: var(--accent-color);
     font-family: raleway, cursive;
+    font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;    
+        letter-spacing: 0.03em;
 }
 
 .studio {
     color: var(--primary-text-color);
     font-family: raleway, cursive;
+    font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
 }
 .link {
    color:var(--primary-text-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
 .link:hover,
@@ -36,14 +52,29 @@ body {
 
 .link.current {
     color: var(--accent-color);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
 }
 
 .auth-nav .link {
     color: var(--primary-text-color);
+    font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
 }
 
 .auth-nav .link.current {
     color: var(--accent-color);
+    font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
 }
 
 .auth-nav .link:hover {
@@ -59,42 +90,102 @@ body {
 
 .hero-title {
     color: var(--primary-white-color);
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        /* or 136% */
+    
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
     
 }
 
 .button-primary {
   color:var(--primary-white-color);
-  background-color: var(--accent-color);  
+  background-color: var(--accent-color);
+font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 /* Особливості */
 
 .pec-title {
     color: var(--primary-text-color);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
 
 .pec-text {
     color: var(--title-text-color);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+    
+        letter-spacing: 0.03em;
 }
 
 /* Чим ми займаємося */
 
 .what-doing {
     color: var(--primary-text-color);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
 }
 
 /* Наша команда */
 
 .out-team {
-color: var(--primary-text-color);    
+color: var(--primary-text-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .our-people {
     color: var(--primary-text-color);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+    
+        text-align: center;
+        letter-spacing: 0.03em;
 }
 
 .people {
     color: var(--title-text-color);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+    
+        text-align: center;
+        letter-spacing: 0.03em;
 }
 
 /* Футер */
@@ -105,16 +196,44 @@ background-color: var(--primary-black-color)
 
 .address-city {
 color: var(--primary-white-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
 }
 
 .address-mail {
     color: var(--title-white-color);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+    
+        letter-spacing: 0.03em;
 }
 
 .address-tel {
     color: var(--title-white-color);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+    
+        letter-spacing: 0.03em;
 }
 
 .tipo {
     color: var(--primary-white-color);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        /* identical to box height */
+    
+        letter-spacing: 0.03em;
 }
