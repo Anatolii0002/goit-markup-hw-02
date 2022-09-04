@@ -215,7 +215,17 @@ background-color: var(--primary-black-color)
 .address-city:hover,
 .address-city:focus {
     color: var(--accent-color);
+}
+
+.address-mail:hover,
+.address-mail:focus {
+    color: var(--accent-color);
 } 
+
+.address-tel:hover,
+.address-tel:focus {
+    color: var(--accent-color);
+}
 
 .address-city {
 color: var(--primary-white-color);
