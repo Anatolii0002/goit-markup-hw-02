@@ -214,6 +214,10 @@ color: var(--primary-text-color);
         text-decoration: none;
 }
 
+.desing-list {
+    text-decoration: none;
+}
+
 /* Футер */
 
 .footer {
