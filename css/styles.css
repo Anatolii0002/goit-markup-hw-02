@@ -141,6 +141,7 @@ body {
         font-size: 36px;
         line-height: 1.17;
         letter-spacing: 0.03em;
+        text-decoration: none;
 }
 
 /* Наша команда */
@@ -151,6 +152,7 @@ color: var(--primary-text-color);
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 .our-people {
@@ -159,6 +161,7 @@ color: var(--primary-text-color);
         font-size: 16px;
         line-height: 1.19;    
         letter-spacing: 0.03em;
+        text-decoration: none;
 }
 
 .people {
@@ -167,6 +170,7 @@ color: var(--primary-text-color);
         font-size: 16px;
         line-height: 1.19;
         letter-spacing: 0.03em;
+        text-decoration: none;
 }
 
 .button-applications {
