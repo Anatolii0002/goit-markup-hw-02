@@ -50,16 +50,6 @@ a {
     text-decoration: none;
 }
 
-.auth-nav .link {
-    color: var(--title-text-color);
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
-}
-
 .link:hover,
 .link:focus {
     color: var(--accent-color);
@@ -80,7 +70,7 @@ a {
 }
 
 .auth-nav .link {
-    color: var(--primary-text-color);
+    color: var(--title-text-color);
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
