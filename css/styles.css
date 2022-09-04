@@ -42,12 +42,22 @@ a {
         text-decoration: none;
 }
 .link {
-   color:var(--primary-text-color);
+    color:var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+}
+
+.auth-nav .link {
+    color: var(--title-text-color);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
 }
 
 .link:hover,
