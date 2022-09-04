@@ -214,8 +214,8 @@ color: var(--primary-text-color);
         text-decoration: none;
 }
 
-.desing-list {
-    text-decoration: none;
+.button-applications current {
+   background-color:var(--accent-color) ;
 }
 
 /* Футер */
