@@ -18,6 +18,9 @@ body {
     list-style: none;
 }
 
+.logo > span {
+    text-decoration: none;
+}
 
 .logo {
     color: var(--accent-color);
