@@ -41,7 +41,7 @@ a {
         letter-spacing: 0.03em;
         text-decoration: none;
 }
-.link {
+.site-nav .link {
     color:var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -214,7 +214,7 @@ color: var(--primary-text-color);
         text-decoration: none;
 }
 
-.button-applications current {
+.button-applications .current {
    background-color:var(--accent-color) ;
 }
 
