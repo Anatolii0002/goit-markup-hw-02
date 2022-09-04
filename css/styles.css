@@ -52,7 +52,7 @@ body {
 
 .link:hover,
 .link:focus {
-    color: var(--primary-white-color);
+    color: var(--accent-color);
 }
 
 .link.current {
