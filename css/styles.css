@@ -208,8 +208,15 @@ color: var(--primary-text-color);
 background-color: var(--primary-black-color)
 }
 
+.address:hover,
+.address:focus {
+    color: var(--accent-color);
+} 
+
 .address-city {
-color: var(--primary-white-color);;
+color: var(--primary-white-color);
+font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -219,6 +226,8 @@ color: var(--primary-white-color);;
 
 .address-mail {
     color: var(--title-white-color);
+    font-family: 'Roboto';
+        font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;    
@@ -228,6 +237,8 @@ color: var(--primary-white-color);;
 
 .address-tel {
     color: var(--title-white-color);
+    font-family: 'Roboto';
+        font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;    
