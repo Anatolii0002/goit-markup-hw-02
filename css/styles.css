@@ -212,8 +212,8 @@ color: var(--primary-text-color);
 background-color: var(--primary-black-color)
 }
 
-.address:hover,
-.address:focus {
+.address-city:hover,
+.address-city:focus {
     color: var(--accent-color);
 } 
 
