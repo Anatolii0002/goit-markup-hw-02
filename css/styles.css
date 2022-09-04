@@ -18,8 +18,7 @@ body {
     list-style: none;
 }
 
-.logo > span,
-.tipo > span {
+a {
     text-decoration: none;
 }
 
