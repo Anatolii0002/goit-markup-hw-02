@@ -87,9 +87,6 @@ a {
         text-decoration: none;
 }
 
-.auth-nav .link:hover {
-    color:var(--primary-text-color);
-}
 
 /* Герой */
 
