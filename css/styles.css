@@ -91,10 +91,8 @@ a {
     font-size: 44px;
     line-height: 1.36;        
     text-align: center;
-    text-transform: uppercase;
     letter-spacing: 0.06em;
-    text-transform: none;
-    
+    text-transform: uppercase;  
 }
 
 .button-primary {
@@ -106,6 +104,7 @@ a {
     font-size: 16px;
     line-height: 1.88;
     display: flex;
+    cursor: pointer;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
@@ -115,6 +114,7 @@ a {
 
 .peculiarities-title {
     color: var(--primary-text-color);
+    font-size: 14px;
     line-height: 1.14;
 }
 
@@ -125,11 +125,6 @@ a {
 
 /* Чим ми займаємося */
 
-.doing {
-    color: var(--primary-text-color);
-    font-size: 36px;
-    line-height: 1.17;
-}
 
 /* Наша команда */
 
@@ -155,11 +150,13 @@ a {
 }
 
 .btn-style {
+    font-family: inherit;
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
+    cursor: pointer;
 }
 
 .btn-style:hover,
@@ -223,4 +220,18 @@ background-color: var(--primary-black-color)
 
 .tipo {
     color: var(--primary-white-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
